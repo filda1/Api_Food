@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Validator;
 use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 
+use Tymon\JWTAuth\Contracts\JWTSubject;
+
 class UserController extends Controller
 {
 
